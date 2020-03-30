@@ -6,7 +6,7 @@ spec:
   runPolicy: "Serial"
   source:
     git:
-      uri: "<GIT-URL>"
+      uri: "https://github.com/azipory/hw-operator.git"
   strategy:
     customStrategy:
       from:
