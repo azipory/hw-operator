@@ -1,0 +1,4 @@
+- version: v1alpha1
+  group: amir.okto.io
+  kind: AmirHelloWorld
+  playbook: /Users/azipory/my-operators/hw-operator/hw.yaml

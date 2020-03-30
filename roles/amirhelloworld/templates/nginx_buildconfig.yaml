@@ -1,0 +1,18 @@
+kind: "BuildConfig"
+apiVersion: "v1"
+metadata:
+  name: "amir-ansible-operatorsdk-builder"
+spec:
+  runPolicy: "Serial"
+  source:
+    git:
+      uri: "<GIT-URL>"
+  strategy:
+    customStrategy:
+      from:
+        kind: "DockerImage"
+        name: "docker.io/dimssss/ansible-operatorsdk-builder:0.4"
+  output:
+    to:
+      kind: "DockerImage"
+      name: "image-registry.openshift-image-registry.svc:5000/amir-workshop-workspace/amir-hw-operator:latest"

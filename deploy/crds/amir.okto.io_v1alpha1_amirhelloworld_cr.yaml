@@ -1,0 +1,7 @@
+apiVersion: amir.okto.io/v1alpha1
+kind: AmirHelloWorld
+metadata:
+  name: example-amirhelloworld
+spec:
+  # Add fields here
+  size: 3

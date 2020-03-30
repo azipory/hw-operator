@@ -1,0 +1,5 @@
+- version: v1alpha1
+  group: amir.okto.io
+  kind: AmirHelloWorld
+  role: amirhelloworld
+  playbook: /opt/ansible/roles/hw.yaml
